@@ -403,7 +403,7 @@
   font-family: 'Jost', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 20px;
   color: #ffffff;
   max-width: 195px;
@@ -479,10 +479,10 @@
 .cta-wrapper__text {
   color: #000;
   font-family: Jost;
-  font-size: 23px;
+  font-size: 19px;
   font-style: normal;
   font-weight: 500;
-  line-height: 27px; /* 117.391% */
+  line-height: 23px; /* 117.391% */
   padding-left: 205px;
 }
 .cta-wrapper__price {
