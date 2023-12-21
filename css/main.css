@@ -1,8 +1,8 @@
 /* Intro banner */
 .intro-wrapper {
   background-color: #fff;
-  min-height: 450px;
-  margin-top: 42px;
+  min-height: 490px;
+  padding-top: 66px;
 }
 .intro-wrapper:before,
 .intro-wrapper:after {
@@ -23,14 +23,14 @@
 }
 .intro-wrapper:after {
   background-image: url(../img/intro-right.png);
-  background-position: center right;
+  background-position: right bottom;
   right: 0;
 }
 .intro-wrapper__line {
   background-color: #BC1111;
   height: 42px;
   position: absolute;
-  top: -42px;
+  top: 0;
   width: 100%;
   left: 0;
   z-index: 2;

@@ -4,29 +4,21 @@
   .theme-wrapper {
     overflow-x: hidden;
   }
-  .cta-wrapper__head {
-    justify-content: center;
-  }
   .theme-button__text {
     font-size: 22px;
   }
 }
 
 @media (max-width: 425px) {
-  .intro-content__discount {
-    right: 0;
-  }
+
 }
 
 @media (max-width: 374px) {
-  .intro-content__discount {
-    right: -20px
+  :root {
+    --padding-h: 12px;
   }
-  .benefits-item__title {
-    font-size: 14px;
-    line-height: 18px;
-    margin: 12px auto 0 auto;
-    display: block;
+  .about-wrapper {
+    max-width: calc(100% - 16px);
   }
   .theme-button {
     max-width: 300px;
@@ -63,7 +55,8 @@
     max-width: 100%;
   }
   .theme-wrapper__heading {
-    font-size: 28px;
+    font-size: 22px;
+    line-height: 26px;
   }
   .cta-wrapper__head {
     flex-direction: column-reverse;
